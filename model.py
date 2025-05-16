@@ -1,0 +1,1 @@
+from torch_harmonics.examples.sfno import SphericalFourierNeuralOperatorNet as SFNO

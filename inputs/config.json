@@ -1,0 +1,29 @@
+{
+    "model_params": {
+        "img_size": [256, 512],
+        "grid": "equiangular",
+        "num_layers": 4,
+        "scale_factor": 3,
+        "embed_dim": 16,
+        "big_skip": true,
+        "pos_embed": "lat",
+        "use_mlp": false,
+        "normalization_layer": "none"
+    },
+    "training_params": {
+        "nepochs": 10,
+        "nfuture": 0,
+        "num_examples": 256,
+        "num_valid": 8,
+        "loss_fn": "l2",
+        "lr": 3e-3,
+        "weight_decay": 0.0
+    },
+    "dataset_params": {
+        "dt_hours": 1,
+        "dt_solver_seconds": 150,
+        "dims": [256, 512]
+    },
+    "enable_amp": false,
+    "plot_cmap": "twilight_shifted"
+}
