@@ -96,6 +96,7 @@ $RECYCLE.BIN/
 # Ignore all contents of model and data folders...
 model/*
 data/*
+figures/*
 
 # ...except the .gitkeep file to keep the empty folder structure
 !model/.gitkeep
