@@ -33,56 +33,6 @@ MANIFEST
 *.manifest
 *.spec
 
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
-
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.nox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.py,cover
-.hypothesis/
-.pytest_cache/
-cover/
-
-# Translations
-*.mo
-*.pot
-
-# Django stuff:
-*.log
-local_settings.py
-db.sqlite3
-db.sqlite3-journal
-
-# Flask stuff:
-instance/
-.webassets-cache
-
-# Scrapy stuff:
-.scrapy
-
-# Sphinx documentation
-docs/_build/
-
-# PyBuilder
-target/
-
-# Jupyter Notebook
-.ipynb_checkpoints
-notebooks/.ipynb_checkpoints # If notebooks are in a subdirectory
-
-# IPython
-profile_default/
-ipython_config.py
-
 # PEP 582; __pypackages__ directory
 __pypackages__/
 
@@ -134,25 +84,6 @@ cython_debug/
 !.vscode/extensions.json
 *.code-workspace
 
-# PyCharm
-.idea/
-*.iml
-
-# Eclipse
-.project
-.pydevproject
-
-# Sublime Text
-*.sublime-project
-*.sublime-workspace
-
-# Atom
-.atom/
-
-# Vim
-*~
-*.swp
-*.swo
 
 # Operating System Files
 .DS_Store
@@ -161,62 +92,15 @@ ehthumbs.db
 Desktop.ini
 $RECYCLE.BIN/
 
-# Project-specific generated files and large data
 
-# Data directory - typically contains generated data, raw data, plots
-# Uncomment if you want to track specific small files inside data/ but ignore most
-# data/*
-# !data/.gitkeep
-# !data/small_metadata.csv
-data/*
+# Ignore all contents of model and data folders...
 model/*
+data/*
 
-# Model directory - typically contains trained model binarie
 # ...except the .gitkeep file to keep the empty folder structure
 !model/.gitkeep
 !data/.gitkeep
 
-# Ignore these folders entirely
-figures/
-plots/
-logs/
-
-# Log files
+# Ignore logs and outputs
 *.log
-logs/
 *.out
-
-# Credentials and sensitive configuration files
-# It's good practice to never commit sensitive files.
-# Use environment variables or a config template.
-# Example:
-# credentials.json
-# .secrets
-# config.prod.json
-
-# If you have specific large files you know you won't track:
-# large_dataset.csv
-# big_file.zip
-
-# Nvidia Nsight Compute
-*.nsight-cuprof-report
-*.nsight-cuprof-collection
-*.qdrep
-*. इस्लामी
-*.ncu-rep
-
-# Docker
-docker-compose.override.yml
-
-
-# Data directory - typically contains generated data, raw data, plots
-# Uncomment if you want to track specific small files inside data/ but ignore most
-# data/*
-# !data/.gitkeep
-# !data/small_metadata.csv
-data/
-
-# Model directory - typically contains trained model binaries
-# model/*
-# !model/.gitkeep
-model/
