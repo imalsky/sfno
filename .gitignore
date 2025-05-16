@@ -168,14 +168,18 @@ $RECYCLE.BIN/
 # data/*
 # !data/.gitkeep
 # !data/small_metadata.csv
-data/
+data/*
+model/*
 
-# Model directory - typically contains trained model binaries
-# model/*
-# !model/.gitkeep
-model/
+# Model directory - typically contains trained model binarie
+# ...except the .gitkeep file to keep the empty folder structure
+!model/.gitkeep
+!data/.gitkeep
+
+# Ignore these folders entirely
 figures/
 plots/
+logs/
 
 # Log files
 *.log
